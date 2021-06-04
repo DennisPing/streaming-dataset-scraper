@@ -9,7 +9,6 @@ from prompt import Prompt
 class ReelGoodScraper:
     """
     A class to scrape the movie aggregation website ReelGood.com
-    Do not re-distribute, this script is against Terms of Service.
     """
     def __init__(self, website, showType, sortBy, numShows):
         self.website = website
